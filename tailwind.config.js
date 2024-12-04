@@ -8,6 +8,7 @@ export default {
         secondary: '#7127BA',
         text: '#ffffff',
         social: '#1877F2',
+        header: '#1A0B2E',
       },
     },
   },
