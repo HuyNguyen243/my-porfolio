@@ -4,10 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#2C1250',
-        secondary: '#7127BA',
-        text: '#ffffff',
-        social: '#1877F2',
+        primary: '#1a0b2e',
+        secondary: '#11071f',
+        'text-primary': '#ffffff',
+        'text-secondary': '#7127BA',
+        'text-third': '#1877F2',
+      },
+      maxWidth: {
+        'max-size': '1030px',
+      },
+      backgroundImage: {
+        'about-gradient': "url('@/assets/images/gradients/about-gradient.png')",
+        'about-ellipse': "url('@/assets/images/ellipse.png')",
       },
     },
   },
